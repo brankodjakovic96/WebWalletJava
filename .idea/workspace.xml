@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a408c59e-e8ed-41ab-9323-efe8ab0160bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/java/com/webwallet/applications/webclient/WebWalletConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/java/com/webwallet/applications/webclient/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/java/com/webwallet/applications/webclient/controllers/WalletController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/java/com/webwallet/applications/webclient/viewmodels/CreateWalletVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/META-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/META-INF/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/META-INF/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/META-INF/wallet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/templates/wallet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/valueObjects/ValueObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/src/main/java/org/webwallet/webclient/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/src/main/resources/test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Applications.WebClient/src/test/java/org/webwallet/webclient/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common.Utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Common.Utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common.Utils/src/main/java/generators/PasswordGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Common.Utils/src/main/java/com/webwallet/common/utils/generators/PasswordGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common.Utils/target/classes/generators/PasswordGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/dtos/CreateWalletDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/com/webwallet/core/applicationServices/dtos/CreateWalletDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/dtos/TransactionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/com/webwallet/core/applicationServices/dtos/TransactionDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/dtos/WalletInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/com/webwallet/core/applicationServices/dtos/WalletInfoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/interfaces/IWalletService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/com/webwallet/core/applicationServices/interfaces/IWalletService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/services/WalletService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/src/main/java/com/webwallet/core/applicationServices/services/WalletService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/src/test/java/walletServiceTests/WalletServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/src/test/java/walletServiceTests/WalletServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/target/classes/dtos/CreateWalletDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/target/classes/dtos/TransactionDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/target/classes/dtos/WalletInfoDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/target/classes/interfaces/IWalletService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/target/classes/services/WalletService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.ApplicationServices/target/test-classes/walletServiceTests/WalletServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Core.ApplicationServices/target/test-classes/walletServiceTests/WalletServiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/entities/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/entities/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/entities/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/entities/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/enums/BankType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/enums/BankType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/enums/TransactionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/enums/TransactionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/valueObjects/Jmbg.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/valueObjects/Jmbg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/valueObjects/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/valueObjects/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/valueObjects/ValueObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/src/main/java/valueObjects/converters/JmbgAttributeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Domain/src/main/java/com/webwallet/core/domain/valueObjects/converters/JmbgAttributeConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/entities/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/entities/Wallet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/enums/BankType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/enums/TransactionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/valueObjects/Jmbg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/valueObjects/Money.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/valueObjects/ValueObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Domain/target/classes/valueObjects/converters/JmbgAttributeConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Core.Infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Infrastructure/src/main/java/repositoryInterfaces/ITransactionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Infrastructure/src/main/java/repositoryInterfaces/IWalletRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Infrastructure/target/classes/repositoryInterfaces/ITransactionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core.Infrastructure/target/classes/repositoryInterfaces/IWalletRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yrFzmpWbtS8Mtm8aUr6b5CCp9d" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conference - thymeleaf" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Java\WebWallet\Applications.WebClient\src\main\resources\META-INF" />
+      <recent name="C:\Projects\Java\WebWallet\Applications.WebClient\src\main\resources\templates" />
+      <recent name="C:\Projects\Java\WebWallet\Applications.WebClient\web\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\Java\WebWallet\Core.Domain\src\main\org.example" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Applications_WebClient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.webwallet.applications.webclient.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a408c59e-e8ed-41ab-9323-efe8ab0160bb" name="Changes" comment="" />
+      <created>1633002065233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633002065233</updated>
+      <workItem from="1633002066510" duration="5964000" />
+      <workItem from="1633008511857" duration="702000" />
+      <workItem from="1633009228967" duration="3585000" />
+      <workItem from="1633012853652" duration="2790000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.thymeleaf.exceptions.TemplateInputException" package="org.thymeleaf.exceptions" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.12.RELEASE/thymeleaf-3.0.12.RELEASE-sources.jar!/org/thymeleaf/templateparser/markup/AbstractMarkupTemplateParser.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.12.RELEASE/thymeleaf-3.0.12.RELEASE-sources.jar!/org/thymeleaf/templateparser/markup/AbstractMarkupTemplateParser.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

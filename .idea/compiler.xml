@@ -7,20 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Core.Infrastructure" />
-        <module name="Applications.WebClient" />
+        <module name="Applications_WebClient" />
         <module name="Core.Domain" />
         <module name="Common.Utils" />
         <module name="Core.ApplicationServices" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="webClient" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Applications.WebClient" options="-parameters" />
-      <module name="webClient" options="-parameters" />
+      <module name="Applications_WebClient" options="-parameters" />
     </option>
   </component>
 </project>
