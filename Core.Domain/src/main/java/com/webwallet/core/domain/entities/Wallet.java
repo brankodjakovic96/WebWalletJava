@@ -24,6 +24,10 @@ public class Wallet {
     private String PIN;
     private BankType bankType;
     @Embedded
+    @AttributeOverrides({
+            @AttributeOverride( name = "amount", column = @Column(name = "balanceAmount")),
+            @AttributeOverride( name = "currency", column = @Column(name = "balanceCurrency")),
+    })
     private Money balance;
 
     @OneToMany(mappedBy = "wallet")
@@ -32,8 +36,16 @@ public class Wallet {
     private Date lastTransactionDateTime;
     private Date lastTransferDateTime;
     @Embedded
+    @AttributeOverrides({
+            @AttributeOverride( name = "amount", column = @Column(name = "usedDepositThisMonthAmount")),
+            @AttributeOverride( name = "currency", column = @Column(name = "usedDepositThisMonthCurrency")),
+    })
     private Money usedDepositThisMonth;
     @Embedded
+    @AttributeOverrides({
+            @AttributeOverride( name = "amount", column = @Column(name = "usedWithdrawThisMonthAmount")),
+            @AttributeOverride( name = "currency", column = @Column(name = "usedWithdrawThisMonthCurrency")),
+    })
     private Money usedWithdrawThisMonth;
     private Boolean isBlocked;
     private String _password;
@@ -54,6 +66,7 @@ public class Wallet {
         this.transactions = new ArrayList<>();
         this.walletCreatedDateTime = new Date();
         this.balance = currency.isEmpty() || currency == null ? new Money(BigDecimal.ZERO, "RSD") : new Money(BigDecimal.ZERO, currency);
+        this.isBlocked = false;
     }
 
     public String getBankAccount() {

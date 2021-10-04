@@ -15,15 +15,6 @@ public class CreateWalletVM {
     private String bankType;
     @NotEmpty
     private String PIN;
-    private String password;
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 
     public String getJmbg() {
         return jmbg;

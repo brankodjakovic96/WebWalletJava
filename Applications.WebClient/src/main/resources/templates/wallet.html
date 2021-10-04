@@ -1,9 +1,9 @@
-
 <html lang="en" xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
       layout:decorate="~{layout}">
 <head>
     <title>Template</title>
+    <link th:href="@{/css/site.css}" rel="stylesheet" />
 </head>
 <body>
 
@@ -12,8 +12,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Thymeleaf Integration</h1>
-                    <p th:text="${password}"></p>
+                    <h1>Create wallet</h1>
+                    <form action="#" th:action="@{/wallet}" th:object="${walletPage.createWalletVM}" method="post">
+                        <p><label>Jmbg: </label><input class="form-control col-md-4" type="text" th:field="*{jmbg}" /></p>
+                        <p><label>First name: </label><input class="form-control col-md-4" type="text" th:field="*{firstName}" /></p>
+                        <p><label>Last name: </label><input class="form-control col-md-4" type="text" th:field="*{lastName}" /></p>
+                        <p><label>Bank account: </label><input class="form-control col-md-4" type="text" th:field="*{bankAccount}" /></p>
+                        <p><label>Bank type: </label>
+                            <select class="form-control col-md-4" th:field="*{bankType}">
+                                <option th:each="type : ${walletPage.bankTypes}" th:value="${type}" th:text="${type}">
+                                </option>
+                            </select>
+                        </p>
+                        <p><label>PIN: </label><input class="form-control col-md-4" type="text" th:field="*{PIN}" /></p>
+
+                        <p><input type="submit" class="btn btn-primary" value="Submit" /> <input class="btn btn-secondary" type="reset" value="Reset" /></p>
+                    </form>
                 </div>
             </div>
         </div>

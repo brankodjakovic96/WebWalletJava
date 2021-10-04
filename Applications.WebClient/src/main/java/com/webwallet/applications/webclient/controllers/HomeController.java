@@ -9,8 +9,7 @@ import java.util.Map;
 @Controller
 public class HomeController {
     @GetMapping("/")
-    public String home(Map<String, Object> model){
-        model.put("message", "Hello Bryan");
+    public String home(){
         return "home";
     }
 

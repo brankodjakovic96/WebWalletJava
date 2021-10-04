@@ -9,9 +9,7 @@ import java.util.Objects;
 
 @Embeddable
 public class Money {
-    @Column(name = "amount", insertable = false, updatable = false)
-    private BigDecimal amount; // <2>
-    @Column(name = "currency", insertable = false, updatable = false)
+    private BigDecimal amount;
     private String currency;
 
     public Money() {
